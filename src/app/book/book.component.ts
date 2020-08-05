@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { IBook } from '../ibook';
 
 @Component({
   selector: 'ctac-personal-book',
@@ -7,7 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BookComponent implements OnInit {
   @Input()
-  book: any;
+
+  book: IBook;
 
   constructor() { }
 

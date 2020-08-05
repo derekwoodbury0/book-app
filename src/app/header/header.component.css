@@ -1,0 +1,22 @@
+.header-main {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-links {
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+a {
+  color: black;
+}
+
+img {
+  height: 10vh;
+}

@@ -1,1 +1,22 @@
-<p>book-detail works!</p>
+<div class="book-list-component">
+
+  <button
+          *ngIf="book.id > 1"
+          (click)='previousBook()'>Previous book</button>
+  <div class="book-container">
+    <img src={{book.imageUrl}} />
+    <div class="book-information">
+      <h1>Title: {{book.title}}</h1>
+      <h2>Author: {{book.author}}</h2>
+      <h3>Genre: {{book.genre}}</h3>
+      <button (click)="addToPersonalBooklist()">Add Book</button>
+    </div>
+  </div>
+  <div class="synopsis-container">
+    <h1><u>About This Book</u></h1>
+    <h4>{{book.synopsis}}</h4>
+  </div>
+  <button
+          *ngIf="book.id < 15"
+          (click)='nextBook()'>Next Book</button>
+</div>

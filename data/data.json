@@ -1,216 +1,242 @@
 {
   "fictionBooks": [
     {
-      "bookId": 1,
+      "id": 1,
       "genre": "fiction",
       "title": "The Vanishing Half",
       "author": "Brit Bennett",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
+      "synopsis": "The lives of twin sisters who run away from a Southern black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine."
     },
     {
-      "bookId": 2,
+      "id": 2,
       "genre": "fiction",
       "title": "The Guest List",
       "author": "Lucy Foley",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780062868930.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780062868930.jpg",
+      "synopsis": "A wedding between a TV star and a magazine publisher on an island off the coast of Ireland turns deadly."
     },
     {
-      "bookId": 3,
+      "id": 3,
       "genre": "fiction",
       "title": "Where The Crawdads Sing",
       "author": "Delia Owens",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780735219090.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
+      "synopsis": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect."
     },
     {
-      "bookId": 4,
+      "id": 4,
       "genre": "fiction",
       "title": "The Lies That Bind",
       "author": "Emily Giffin",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg",
+      "synopsis": "When the new man in her life disappears on 9/11, the budding reporter Cecily Gardner questions what she knew about him."
     },
     {
-      "bookId": 5,
+      "id": 5,
       "genre": "fiction",
       "title": "Hideaway",
       "author": "Nora Roberts",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781250207104.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781250207104.jpg",
+      "synopsis": "A child star escapes her abductors, gathers herself in western Ireland and returns to Hollywood."
     },
     {
-      "bookId": 6,
+      "id": 6,
       "genre": "fiction",
       "title": "Camino Winds",
       "author": "John Grisham",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780385545938.jpg"
     },
     {
-      "bookId": 7,
+      "id": 7,
       "genre": "fiction",
       "title": "Fair Warning",
       "author": "Michael Connelly",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780316539425.jpg"
     },
     {
-      "bookId": 8,
+      "id": 8,
       "genre": "fiction",
       "title": "Little Fires Everywhere",
       "author": "Celeste Ng",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780735224308.jpg"
     },
     {
-      "bookId": 9,
+      "id": 9,
       "genre": "fiction",
       "title": "Big Summer",
       "author": "Jennifer Weiner",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781501133510.jpg"
     },
     {
-      "bookId": 10,
+      "id": 10,
       "genre": "fiction",
       "title": "If It Bleeds",
       "author": "Stephen King",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781982137977.jpg"
     },
     {
-      "bookId": 11,
+      "id": 11,
       "genre": "fiction",
       "title": "Hush",
       "author": "James Patterson and Candice Fox",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781538751138.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781538751138.jpg"
     },
     {
-      "bookId": 12,
+      "id": 12,
       "genre": "fiction",
       "title": "American Dirt",
       "author": "Jeanine Cummins",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781250209764.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781250209764.jpg"
     },
     {
-      "bookId": 13,
+      "id": 13,
       "genre": "fiction",
       "title": "Walk The Wire",
       "author": "David Baldacci",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781538761465.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781538761465.jpg"
     },
     {
-      "bookId": 14,
+      "id": 14,
       "genre": "fiction",
       "title": "Normal People",
       "author": "Salley Rooney",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781984822178.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781984822178.jpg"
     },
     {
-      "bookId": 15,
+      "id": 15,
       "genre": "fiction",
       "title": "All Adults Here",
       "author": "Emma Straub",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781594634697.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781594634697.jpg"
     }
   ],
   "nonfictionBooks": [
     {
-      "bookId": 1,
-      "genre": "Non-Fiction",
+      "id": 1,
+      "genre": "nonfiction",
       "title": "White Fragility",
       "author": "Robin DiAngelo",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780807047415.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780807047415.jpg",
+      "synopsis": "Historical and cultural analyses on what causes defensive moves by white people and how this inhibits cross-racial dialogue."
     },
     {
-      "bookId": 2,
-      "genre": "Non-Fiction",
+      "id": 2,
+      "genre": "nonfiction",
       "title": "So You Want To Talk About Race",
       "author": "Ijeoma Oluo",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781580056786.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781580056786.jpg",
+      "synopsis": "A look at the contemporary racial landscape of the United States."
     },
     {
-      "bookId": 3,
-      "genre": "Non-Fiction",
+      "id": 3,
+      "genre": "nonfiction",
       "title": "How To Be An Antiracist",
       "author": "Ibram X Kendi",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780525509288.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525509288.jpg",
+      "synopsis": "A primer for creating a more just and equitable society through identifying and opposing racism."
     },
     {
-      "bookId": 4,
-      "genre": "Non-Fiction",
+      "id": 4,
+      "genre": "nonfiction",
       "title": "Me And White Supremacy",
       "author": "Layla F Saad",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781728209807.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781728209807.jpg",
+      "synopsis": "Winner of the 2016 National Book Award for nonfiction. A look at anti-black racist ideas and their effect on the course of American history."
     },
     {
-      "bookId": 5,
-      "genre": "Non-Fiction",
+      "id": 5,
+      "genre": "nonfiction",
       "title": "The New Jim Crow",
       "author": "Michelle Alexander",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781595586438.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781595586438.jpg",
+      "synopsis": "The Fox News Sunday anchor gives an account of the key people involved in and events leading up to America’s attack on Hiroshima in 1945."
     },
     {
-      "bookId": 6,
-      "genre": "Non-Fiction",
+      "id": 6,
+      "genre": "nonfiction",
       "title": "The Color Of Law",
       "author": "Richard Rothstein",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781631494536.jpg"
     },
     {
-      "bookId": 7,
-      "genre": "Non-Fiction",
+      "id": 7,
+      "genre": "nonfiction",
       "title": "Between The World And Me",
       "author": "Ta-Nehisi Coates",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780679645986.jpg"
     },
     {
-      "bookId": 8,
-      "genre": "Non-Fiction",
+      "id": 8,
+      "genre": "nonfiction",
       "title": "Untamed",
       "author": "Glennon Doyle",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781984801258.jpg"
     },
     {
-      "bookId": 9,
-      "genre": "Non-Fiction",
+      "id": 9,
+      "genre": "nonfiction",
       "title": "Stamped From The Beginning",
       "author": "Ibram X Kendi",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781568584638.jpg"
     },
     {
-      "bookId": 10,
-      "genre": "Non-Fiction",
+      "id": 10,
+      "genre": "nonfiction",
       "title": "Just Mercy",
       "author": "Bryan Stevenson",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780812994520.jpg"
     },
     {
-      "bookId": 11,
-      "genre": "Non-Fiction",
+      "id": 11,
+      "genre": "nonfiction",
       "title": "Becoming",
       "author": "Michelle Obama",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781524763138.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781524763138.jpg"
     },
     {
-      "bookId": 12,
-      "genre": "Non-Fiction",
+      "id": 12,
+      "genre": "nonfiction",
       "title": "The Splendid And The Vile",
       "author": "Erik Larson",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9780385348713.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780385348713.jpg"
     },
     {
-      "bookId": 13,
-      "genre": "Non-Fiction",
+      "id": 13,
+      "genre": "nonfiction",
       "title": "Born A Crime",
       "author": "Trevor Noah",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9780399588181.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780399588181.jpg"
     },
     {
-      "bookId": 14,
-      "genre": "Non-Fiction",
+      "id": 14,
+      "genre": "nonfiction",
       "title": "Why Are All Black Kids Sitting Together In The Cafeteria?",
       "author": "Beverly Tatum",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9780465060689.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780465060689.jpg"
     },
     {
-      "bookId": 15,
-      "genre": "Non-Fiction",
+      "id": 15,
+      "genre": "nonfiction",
       "title": "I'm Still Here",
       "author": "Austin Channing Brown",
-      "imageUrls": "https://s1.nyt.com/du/books/images/9781524760861.jpg"
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781524760861.jpg"
+    }
+  ],
+  "personalBookList": [
+    {
+      "id": 0,
+      "title": "some book",
+      "author": "me",
+      "genre": "fiction",
+      "imageUrl": "empty"
+    },
+    {
+      "id": 3,
+      "genre": "fiction",
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780735224308.jpg"
     }
   ]
 }

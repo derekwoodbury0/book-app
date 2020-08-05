@@ -1,5 +1,7 @@
 <div class="book-container">
-  <img src={{book.imageUrl}}/>
+  <img
+    [routerLink]="['/' + book.genre + '/' + book.id]"
+    src={{book.imageUrl}}/>
   <div class="book-information">
     <h1>Title: {{book.title}}</h1>
     <h2>Author: {{book.author}}</h2>

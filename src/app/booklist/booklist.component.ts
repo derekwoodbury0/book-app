@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from '../book.service'
+import { IBook } from '../ibook';
 
 @Component({
   selector: 'ctac-personal-booklist',
@@ -7,9 +8,9 @@ import { BookService } from '../book.service'
   styleUrls: ['./booklist.component.css']
 })
 export class BooklistComponent implements OnInit {
-  fictionBooks: any[]
+  fictionBooks: IBook[]
 
-  nonfictionBooks: any[]
+  nonfictionBooks: IBook[]
   constructor(private bookService: BookService) {
    }
 
