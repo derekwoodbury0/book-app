@@ -32,6 +32,18 @@ img {
   padding-right: 25px;
 }
 
+#previous-button {
+  position: fixed;
+  top: 175px;
+  left: 85px;
+}
+
+#next-button {
+  position: fixed;
+  top: 175px;
+  right: 85px;
+}
+
 .book-list-component {
   display: flex;
   width: 100vw;

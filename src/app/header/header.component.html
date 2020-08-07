@@ -1,9 +1,30 @@
-<div class="header-main">
-  <h1>Book Nook</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <i class="fa fa-bookmark fa-3x" style="color: red; margin-right: 5px;;"></i>
+  <a class="navbar-brand" style="color: white;" [routerLink]="['/books']">BookNook</a>
+ <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/books']">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/personal']">My BookList</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/about']">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" style="color: white; border-color: white;" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+  <!-- <h1>Book Nook</h1>
   <div class="header-links">
     <a [routerLink]="['/books']">Home</a>
     <a [routerLink]="['/personal']">My Booklist</a>
     <a [routerLink]="['/about']">About</a>
   </div>
   <img src="data:image/png;base64,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">
-</div>
+</div> -->

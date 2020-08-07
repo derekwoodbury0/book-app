@@ -1,0 +1,91 @@
+<div class="personal-book-detail">
+  <div class="book-list-component">
+    <button
+      style="margin-left: 15px;"
+      id="previous-button"
+      class='btn btn-outline-secondary'
+      [routerLink]="['/personal']">
+      <i class='fa fa-chevron-left'></i>Back to Personal Booklist
+    </button>
+    <div class="book-container">
+      <img src={{book.imageUrl}} alt="image" />
+      <div class="book-information">
+        <h1>{{book.title}}</h1>
+        <h2>Author: {{book.author}}</h2>
+        <h3>Genre: {{book.genre}}</h3>
+
+        <div
+        *ngIf="book.status === 'Unread'"
+        data-toggle="buttons"
+        class="btn-group-lg"
+        role="group"
+        aria-label="Basic example">
+          <button
+            type="button"
+            class="btn btn-secondary">
+            <i class="fa fa-check"></i>Unread
+          </button>
+          <button
+            (click)="updateStatus($event.target.innerText)"
+            type="button"
+            class="btn btn-secondary"
+            >Reading</button>
+            <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="updateStatus($event.target.innerText)">Read
+          </button>
+        </div>
+
+        <div
+        *ngIf="book.status === 'Reading'"
+        data-toggle="buttons"
+        class="btn-group-lg"
+        role="group"
+        aria-label="Basic example">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="updateStatus($event.target.innerText)">Unread
+          </button>
+          <button type="button" class="btn btn-secondary">
+          <i class="fa fa-check">
+          </i>Reading</button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="updateStatus($event.target.innerText)">Read
+          </button>
+        </div>
+
+        <div
+        *ngIf="book.status === 'Read'"
+        data-toggle="buttons"
+        class="btn-group-lg"
+        role="group"
+        aria-label="Basic example">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="updateStatus($event.target.innerText)">Unread
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="updateStatus($event.target.innerText)">Reading
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary">
+            <i class="fa fa-check">
+            </i>Read
+        </button>
+        </div>
+      </div>
+    </div>
+    <div class="synopsis-container">
+      <h1><u>About This Book</u></h1>
+      <h4>{{book.synopsis}}</h4>
+    </div>
+  </div>
+</div>

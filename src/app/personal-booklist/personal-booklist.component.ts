@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from '../book.service'
 import { IBook } from '../ibook';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'ctac-personal-personal-booklist',
@@ -11,18 +12,20 @@ export class PersonalBooklistComponent implements OnInit {
 
   bookList: IBook[]
 
-  constructor(private bookService: BookService) { }
+  constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.bookService.getPersonalBookList().subscribe(result => (this.bookList = result))
   }
 
-  deleteBook(deletedId: number): void {
-  this.bookService.deleteBook(deletedId).subscribe();
+  deleteBook(book): void {
+    let deletedId = book.id;
+    this.bookService.updateListStatus(book).subscribe()
+    this.bookService.deleteBook(deletedId).subscribe();
 
-  let foundNumber = this.bookList.findIndex(book => book.id === deletedId);
+    let foundNumber = this.bookList.findIndex(book => book.id === deletedId);
 
-  this.bookList.splice(foundNumber, 1);
+    this.bookList.splice(foundNumber, 1);
 
   }
 }

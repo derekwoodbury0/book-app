@@ -1,9 +1,10 @@
-.header-main {
+/* .header-main {
   height: 10vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: white;
 }
 
 .header-links {
@@ -19,4 +20,4 @@ a {
 
 img {
   height: 10vh;
-}
+} */

@@ -7,7 +7,8 @@
       "author": "Brit Bennett",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
       "synopsis": "The lives of twin sisters who run away from a Southern black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine.",
-      "inPersonalList": true
+      "inPersonalList": true,
+      "status": "Unread"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "author": "Lucy Foley",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780062868930.jpg",
       "synopsis": "A wedding between a TV star and a magazine publisher on an island off the coast of Ireland turns deadly.",
-      "inPersonalList": false
+      "inPersonalList": false,
+      "status": "Unread"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "author": "Delia Owens",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
       "synopsis": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
-      "inPersonalList": false
+      "inPersonalList": false,
+      "status": "Unread"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "author": "Emily Giffin",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg",
       "synopsis": "When the new man in her life disappears on 9/11, the budding reporter Cecily Gardner questions what she knew about him.",
-      "inPersonalList": false
+      "inPersonalList": true,
+      "status": "Unread"
     },
     {
       "id": 5,
@@ -134,7 +138,8 @@
       "author": "Robin DiAngelo",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780807047415.jpg",
       "synopsis": "Historical and cultural analyses on what causes defensive moves by white people and how this inhibits cross-racial dialogue.",
-      "inPersonalList": false
+      "inPersonalList": false,
+      "status": "Unread"
     },
     {
       "id": 17,
@@ -261,7 +266,18 @@
       "author": "Brit Bennett",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
       "synopsis": "The lives of twin sisters who run away from a Southern black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine.",
-      "inPersonalList": true
+      "inPersonalList": true,
+      "status": "Read"
+    },
+    {
+      "id": 4,
+      "genre": "fiction",
+      "title": "The Lies That Bind",
+      "author": "Emily Giffin",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg",
+      "synopsis": "When the new man in her life disappears on 9/11, the budding reporter Cecily Gardner questions what she knew about him.",
+      "inPersonalList": true,
+      "status": "Unread"
     }
   ]
 }

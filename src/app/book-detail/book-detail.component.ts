@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap, Router } from '@angular/router'
+import { ActivatedRoute, Router } from '@angular/router'
 import { BookService } from '../book.service'
+import { IBook } from '../ibook';
 
 @Component({
   selector: 'ctac-personal-book-detail',
@@ -11,16 +12,16 @@ export class BookDetailComponent implements OnInit {
   id: number;
   genre: string;
 
-  book: any;
+  book: IBook;
 
-  constructor(private route: ActivatedRoute, private bookService: BookService, private router: Router) {
+  fromPersonalList: boolean = false;
+
+  constructor(
+    private route: ActivatedRoute,
+    private bookService: BookService,
+    private router: Router
+    ) {
   }
-
-
-  // ngOnInit(): void {
-  //   this.id = this.route.snapshot.paramMap.get("id");
-  //   this.genre = this.route.snapshot.paramMap.get("genre");
-  // }
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
@@ -29,14 +30,15 @@ export class BookDetailComponent implements OnInit {
 
       this.bookService.getBookById(this.genre, this.id).subscribe(result => (this.book = result));
 
-      })
-      // this.genre = this.route.paramMap.subscribe(params => params.get("genre"));
-      // this.bookService.getBookById(this.genre, this.id).subscribe(result => this.book = result);
-      // console.log(this.id, this.genre)
-       }
+      if (window.history.state.fromPersonalList) {
+        this.fromPersonalList = true;
+      };
+    })
+  }
 
   addToPersonalBooklist(): void {
-    this.bookService.addBook(this.book).subscribe()
+    this.bookService.updateListStatus(this.book).subscribe();
+    this.bookService.addBook(this.book).subscribe();
   }
 
   nextBook(): void {

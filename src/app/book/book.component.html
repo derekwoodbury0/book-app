@@ -6,5 +6,6 @@
     <h1>Title: {{book.title}}</h1>
     <h2>Author: {{book.author}}</h2>
     <h3>Genre: {{book.genre}}</h3>
+    <button class="btn btn-outline-secondary" [routerLink]="['/' + book.genre + '/' + book.id]">More Details</button>
   </div>
 </div>
