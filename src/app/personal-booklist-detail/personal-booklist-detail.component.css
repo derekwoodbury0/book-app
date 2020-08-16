@@ -1,7 +1,6 @@
 .booklist-component {
   height: 90vh;
   width: 50vw;
-  overflow-y: scroll;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 50vw;
 }
 
 .book-container {
@@ -24,7 +24,7 @@
   width: 600px;
 }
 
-.synopsis-container {
+.description-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

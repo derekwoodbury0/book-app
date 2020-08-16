@@ -14,41 +14,44 @@ export class BookDetailComponent implements OnInit {
 
   book: IBook;
 
-  fromPersonalList: boolean = false;
+  // fromPersonalList: boolean = false;
 
   constructor(
     private route: ActivatedRoute,
     private bookService: BookService,
     private router: Router
-    ) {
-  }
+    ) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
-      this.id = +params.get("id");
-      this.genre = params.get("genre");
+      let id = +params.get("id");
+      let genre = params.get("genre");
 
-      this.bookService.getBookById(this.genre, this.id).subscribe(result => (this.book = result));
-
-      if (window.history.state.fromPersonalList) {
-        this.fromPersonalList = true;
-      };
+      this.bookService.getBookById(genre, id).subscribe(result => {
+        console.log(result)
+        this.book = result
+      });
     })
   }
 
   addToPersonalBooklist(): void {
+    this.book.inPersonalList = true;
+    let newBook = {...this.book};
+    delete newBook.id
+    this.bookService.addBook(newBook).subscribe();
     this.bookService.updateListStatus(this.book).subscribe();
-    this.bookService.addBook(this.book).subscribe();
   }
 
   nextBook(): void {
-    let nextId = +this.id + 1;
-    this.router.navigate([`/${this.genre}/${nextId}`])
+    let { id, genre } = this.book
+    let nextId = +id + 1;
+    this.router.navigate([`/${genre}/${nextId}`])
   }
 
   previousBook(): void {
-    let prevId = +this.id - 1;
-    this.router.navigate([`/${this.genre}/${prevId}`])
+    let { id, genre } = this.book
+    let prevId = +id - 1;
+    this.router.navigate([`/${genre}/${prevId}`])
   }
 }
 

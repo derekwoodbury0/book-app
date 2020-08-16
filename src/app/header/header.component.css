@@ -1,13 +1,8 @@
-/* .header-main {
-  height: 10vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: white;
+.header {
+  height: 8vh;
 }
 
-.header-links {
+/* .header-links {
   width: 35vw;
   display: flex;
   justify-content: space-between;

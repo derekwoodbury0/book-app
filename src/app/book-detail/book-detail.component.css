@@ -8,7 +8,7 @@
   width: 600px;
 }
 
-.synopsis-container {
+.description-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

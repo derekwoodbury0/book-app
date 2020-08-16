@@ -2,28 +2,14 @@
   <button
   id="previous-button"
   class='btn btn-outline-secondary'
-  *ngIf="book.genre === 'fiction' && book.id > 1 && fromPersonalList === false;"
+  *ngIf="book.id > 1"
   (click)='previousBook()'>
   <i class='fa fa-chevron-left'></i>
   Previous book</button>
 <button
-  id="previous-button"
-  class='btn btn-outline-secondary'
-  *ngIf="book.genre === 'nonfiction' && book.id > 16 && fromPersonalList === false;"
-  (click)='previousBook()'>
-  <i class='fa fa-chevron-left'></i> Previous Book
-</button>
-<button
   id="next-button"
   class='btn btn-outline-secondary'
-  *ngIf="fromPersonalList === false && book.genre === 'nonfiction' && book.id < 30"
-  (click)='nextBook()'>
-  Next Book &nbsp;<i class='fa fa-chevron-right'></i>
-</button>
-<button
-  id="next-button"
-  class='btn btn-outline-secondary'
-  *ngIf="fromPersonalList === false && book.genre === 'fiction' && book.id < 15"
+  *ngIf="book.id < 15"
   (click)='nextBook()'>
   Next Book &nbsp;<i class='fa fa-chevron-right'></i>
 </button>
@@ -31,7 +17,7 @@
 
 <div class="book-list-component">
   <div class="book-container">
-    <img src={{book.imageUrl}} />
+    <img src={{book.book_image}} />
     <div class="book-information">
       <h1>Title: {{book.title}}</h1>
       <h2>Author: {{book.author}}</h2>
@@ -46,8 +32,8 @@
       </ng-template>
     </div>
   </div>
-  <div class="synopsis-container">
+  <div class="description-container">
     <h1><u>About This Book</u></h1>
-    <h4>{{book.synopsis}}</h4>
+    <h4>{{book.description}}</h4>
   </div>
 </div>

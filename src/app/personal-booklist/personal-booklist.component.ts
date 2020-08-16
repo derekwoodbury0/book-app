@@ -14,13 +14,12 @@ export class PersonalBooklistComponent implements OnInit {
 
   constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.bookService.getPersonalBookList().subscribe(result => (this.bookList = result))
   }
 
   deleteBook(book): void {
     let deletedId = book.id;
-    this.bookService.updateListStatus(book).subscribe()
     this.bookService.deleteBook(deletedId).subscribe();
 
     let foundNumber = this.bookList.findIndex(book => book.id === deletedId);

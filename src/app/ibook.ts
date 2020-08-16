@@ -3,8 +3,8 @@ export interface IBook {
   title: string;
   author: string;
 
-  imageUrl: string;
-  synopsis: string;
+  book_image: string;
+  description: string;
   inPersonalList: boolean;
   status: string;
   genre: string;

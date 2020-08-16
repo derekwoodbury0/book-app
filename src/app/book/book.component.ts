@@ -9,7 +9,7 @@ import { IBook } from '../ibook';
 export class BookComponent implements OnInit {
   @Input()
 
-  book: IBook;
+  book: any;
 
   constructor() { }
 

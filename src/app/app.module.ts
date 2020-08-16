@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PersonalBooklistDetailComponent } from './personal-booklist-detail/personal-booklist-detail.component';
 import { AddBookComponentComponent } from './add-book-component/add-book-component.component';
 import { PersonalPageComponent } from './personal-page/personal-page.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AppRoutingModule } from '../app-routing.module'
 
 @NgModule({
   declarations: [
@@ -32,38 +34,9 @@ import { PersonalPageComponent } from './personal-page/personal-page.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      {
-        path: 'about',
-        component: AboutComponent,
-      },
-      {
-        path: 'personal',
-        component: PersonalPageComponent,
-        children: [
-          {
-            path: '',
-            redirectTo: 'list',
-            pathMatch: 'full'
-          },
-          {
-            path: 'detail',
-            component: PersonalBooklistDetailComponent
-          },
-          {
-            path: 'list',
-            component: PersonalBooklistComponent
-          }
-        ]
-      },
-      { path: 'books', component: BooklistComponent },
-      {
-        path: ':genre/:id',
-        canActivate: [BookDetailGuard],
-        component: BookDetailComponent
-      },
-      { path: '', redirectTo: 'books', pathMatch: 'full' }
-    ]),
+    ReactiveFormsModule,
+    FormsModule,
+    AppRoutingModule,
     NgbModule
   ],
   providers: [HttpClient],
