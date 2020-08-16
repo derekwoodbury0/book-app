@@ -2,282 +2,327 @@
   "fictionBooks": [
     {
       "id": 1,
-      "genre": "fiction",
-      "title": "The Vanishing Half",
-      "author": "Brit Bennett",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
-      "synopsis": "The lives of twin sisters who run away from a Southern black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine.",
+      "title": "WHERE THE CRAWDADS SING",
+      "author": "Delia Owens",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
+      "synopsis": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
       "inPersonalList": true,
-      "status": "Unread"
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 2,
-      "genre": "fiction",
-      "title": "The Guest List",
+      "title": "THE VANISHING HALF",
+      "author": "Brit Bennett",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
+      "synopsis": "The lives of twin sisters who run away from a Southern Black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
+    },
+    {
+      "id": 3,
+      "title": "1ST CASE",
+      "author": "James Patterson and Chris Tebbetts",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780316418188.jpg",
+      "synopsis": "After getting kicked out of M.I.T., Angela Hoot interns with the F.B.I. and tracks the murderous siblings known as the Poet and the Engineer.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
+    },
+    {
+      "id": 4,
+      "title": "THE ORDER",
+      "author": "Daniel Silva",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780062834843.jpg",
+      "synopsis": "The 20th book in the Gabriel Allon series. The art restorer and spy cuts his family’s vacation short to investigate whether Pope Paul VII was murdered.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
+    },
+    {
+      "id": 5,
+      "title": "THE GUEST LIST",
       "author": "Lucy Foley",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780062868930.jpg",
       "synopsis": "A wedding between a TV star and a magazine publisher on an island off the coast of Ireland turns deadly.",
       "inPersonalList": false,
-      "status": "Unread"
-    },
-    {
-      "id": 3,
-      "genre": "fiction",
-      "title": "Where The Crawdads Sing",
-      "author": "Delia Owens",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
-      "synopsis": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
-      "inPersonalList": false,
-      "status": "Unread"
-    },
-    {
-      "id": 4,
-      "genre": "fiction",
-      "title": "The Lies That Bind",
-      "author": "Emily Giffin",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg",
-      "synopsis": "When the new man in her life disappears on 9/11, the budding reporter Cecily Gardner questions what she knew about him.",
-      "inPersonalList": true,
-      "status": "Unread"
-    },
-    {
-      "id": 5,
-      "genre": "fiction",
-      "title": "Hideaway",
-      "author": "Nora Roberts",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781250207104.jpg",
-      "synopsis": "A child star escapes her abductors, gathers herself in western Ireland and returns to Hollywood.",
-      "inPersonalList": false
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 6,
-      "genre": "fiction",
-      "title": "Camino Winds",
-      "author": "John Grisham",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780385545938.jpg",
-      "inPersonalList": false
+      "title": "NEAR DARK",
+      "author": "Brad Thor",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781982104061.jpg",
+      "synopsis": "The 19th book in the Scot Harvath series. With a bounty on his head, Harvath makes an alliance with a Norwegian intelligence operative.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 7,
-      "genre": "fiction",
-      "title": "Fair Warning",
-      "author": "Michael Connelly",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780316539425.jpg",
-      "inPersonalList": false
+      "title": "SUCKER PUNCH",
+      "author": "Laurell K Hamilton",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781984804433.jpg",
+      "synopsis": "The 27th book in the Anita Blake, Vampire Hunter series. The evidence that a wereleopard killed his uncle doesn’t add up.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 8,
-      "genre": "fiction",
-      "title": "Little Fires Everywhere",
-      "author": "Celeste Ng",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780735224308.jpg",
-      "inPersonalList": false
+      "title": "28 SUMMERS",
+      "author": "Elin Hilderbrand",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780316420044.jpg",
+      "synopsis": "A relationship that started in 1993 between Mallory Blessing and Jake McCloud comes to light while she is on her deathbed and his wife runs for president.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 9,
-      "genre": "fiction",
-      "title": "Big Summer",
-      "author": "Jennifer Weiner",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781501133510.jpg",
-      "inPersonalList": false
+      "title": "HARROW THE NINTH",
+      "author": "Tamsyn Muir",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781250313225.jpg",
+      "synopsis": "The second book of the Locked Tomb trilogy. Harrowhark Nonagesimus must overcome her failing health to become an angel of undeath.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 10,
-      "genre": "fiction",
-      "title": "If It Bleeds",
-      "author": "Stephen King",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781982137977.jpg",
-      "inPersonalList": false
+      "title": "THE SILENT WIFE",
+      "author": "Karin Slaughter",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780062858108.jpg",
+      "synopsis": "The 10th book in the Will Trent series. Investigations of two crimes force Trent to call on his girlfriend's expertise as a medical examiner.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 11,
-      "genre": "fiction",
-      "title": "Hush",
-      "author": "James Patterson and Candice Fox",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781538751138.jpg",
-      "inPersonalList": false
+      "title": "AMERICAN DIRT",
+      "author": "Jeanine Cummins",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781250209764.jpg",
+      "synopsis": "A bookseller flees Mexico for the United States with her son while pursued by the head of a drug cartel.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 12,
-      "genre": "fiction",
-      "title": "American Dirt",
-      "author": "Jeanine Cummins",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781250209764.jpg",
-      "inPersonalList": false
+      "title": "LUSTER",
+      "author": "Raven Leilani",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780374194321.jpg",
+      "synopsis": "A young Brooklyn artist is invited to live with a New Jersey couple who have an open marriage and an adopted daughter.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 13,
-      "genre": "fiction",
-      "title": "Walk The Wire",
-      "author": "David Baldacci",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781538761465.jpg",
-      "inPersonalList": false
+      "title": "MEXICAN GOTHIC",
+      "author": "Silvia Moreno-Garcia",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525620785.jpg",
+      "synopsis": "In 1950s Mexico, a debutante travels to a distant mansion where family secrets of a faded mining empire have been kept hidden.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 14,
-      "genre": "fiction",
-      "title": "Normal People",
-      "author": "Salley Rooney",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781984822178.jpg",
-      "inPersonalList": false
+      "title": "CAMINO WINDS",
+      "author": "John Grisham",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780385545938.jpg",
+      "synopsis": "The line between fact and fiction becomes blurred when an author of thrillers is found dead after a hurricane hits Camino Island.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     },
     {
       "id": 15,
-      "genre": "fiction",
-      "title": "All Adults Here",
-      "author": "Emma Straub",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781594634697.jpg",
-      "inPersonalList": false
+      "title": "THE DEATH OF VIVEK OJI",
+      "author": "Akwaeke Emezi",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525541608.jpg",
+      "synopsis": "In southern Nigeria, an act of violence comes out of the facets of a relationship between cousins Vivek and Osita.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "fiction"
     }
   ],
-  "nonfictionBooks": [
+  "nonFictionBooks": [
     {
-      "id": 16,
-      "genre": "nonfiction",
-      "title": "White Fragility",
-      "author": "Robin DiAngelo",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780807047415.jpg",
-      "synopsis": "Historical and cultural analyses on what causes defensive moves by white people and how this inhibits cross-racial dialogue.",
+      "id": 1,
+      "title": "LIVE FREE OR DIE",
+      "author": "Sean Hannity",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781982149970.jpg",
+      "synopsis": "The Fox News host offers his assessment on what is at stake in the 2020 election.",
       "inPersonalList": false,
-      "status": "Unread"
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 17,
-      "genre": "nonfiction",
-      "title": "So You Want To Talk About Race",
-      "author": "Ijeoma Oluo",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781580056786.jpg",
-      "synopsis": "A look at the contemporary racial landscape of the United States.",
-      "inPersonalList": false
+      "id": 2,
+      "title": "TOO MUCH AND NEVER ENOUGH",
+      "author": "Mary L Trump",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781982141462.jpg",
+      "synopsis": "The clinical psychologist gives her assessment of events and patterns inside her family and how they shaped President Trump.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 18,
-      "genre": "nonfiction",
-      "title": "How To Be An Antiracist",
+      "id": 3,
+      "title": "CASTE",
+      "author": "Isabel Wilkerson",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780593230251.jpg",
+      "synopsis": "The Pulitzer Prize-winning journalist examines aspects of caste systems across civilizations and reveals a rigid hierarchy in America today.",
+      "inPersonalList": true,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 4,
+      "title": "HOW TO BE AN ANTIRACIST",
       "author": "Ibram X Kendi",
       "imageUrl": "https://s1.nyt.com/du/books/images/9780525509288.jpg",
       "synopsis": "A primer for creating a more just and equitable society through identifying and opposing racism.",
-      "inPersonalList": false
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 19,
-      "genre": "nonfiction",
-      "title": "Me And White Supremacy",
-      "author": "Layla F Saad",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781728209807.jpg",
-      "synopsis": "Winner of the 2016 National Book Award for nonfiction. A look at anti-black racist ideas and their effect on the course of American history.",
-      "inPersonalList": false
+      "id": 5,
+      "title": "MAKE CHANGE",
+      "author": "Shaun King",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780358048008.jpg",
+      "synopsis": "A look at how social movements evolve and ways in which activists can sustain their efforts.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 20,
-      "genre": "nonfiction",
-      "title": "The New Jim Crow",
-      "author": "Michelle Alexander",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781595586438.jpg",
-      "synopsis": "The Fox News Sunday anchor gives an account of the key people involved in and events leading up to America’s attack on Hiroshima in 1945.",
-      "inPersonalList": false
-    },
-    {
-      "id": 21,
-      "genre": "nonfiction",
-      "title": "The Color Of Law",
-      "author": "Richard Rothstein",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781631494536.jpg",
-      "inPersonalList": false
-    },
-    {
-      "id": 22,
-      "genre": "nonfiction",
-      "title": "Between The World And Me",
-      "author": "Ta-Nehisi Coates",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780679645986.jpg",
-      "inPersonalList": false
-    },
-    {
-      "id": 23,
-      "genre": "nonfiction",
-      "title": "Untamed",
+      "id": 6,
+      "title": "UNTAMED",
       "author": "Glennon Doyle",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781984801258.jpg",
-      "inPersonalList": false
+      "synopsis": "The activist and public speaker describes her journey of listening to her inner voice.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 24,
-      "genre": "nonfiction",
-      "title": "Stamped From The Beginning",
-      "author": "Ibram X Kendi",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781568584638.jpg",
-      "inPersonalList": false
+      "id": 7,
+      "title": "IT WAS ALL A LIE",
+      "author": "Stuart Stevens",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525658450.jpg",
+      "synopsis": "The former political campaign strategist evaluates the changes within the Republican Party in the last half-century.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 25,
-      "genre": "nonfiction",
-      "title": "Just Mercy",
-      "author": "Bryan Stevenson",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780812994520.jpg",
-      "inPersonalList": false
+      "id": 8,
+      "title": "HOW TO DESTROY AMERICA IN THREE EASY STEPS",
+      "author": "Ben Shapiro",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780063001879.jpg",
+      "synopsis": "The conservative commentator describes what he perceives as threats to American history, ideals and culture.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 26,
-      "genre": "nonfiction",
-      "title": "Becoming",
+      "id": 9,
+      "title": "THE ANSWER IS ...",
+      "author": "Alex Trebek",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781982157999.jpg",
+      "synopsis": "Who is the Canadian-American game show host whose pronunciation of the word “genre” has been shared widely on social media?",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 10,
+      "title": "THE ROOM WHERE IT HAPPENED",
+      "author": "John Bolton",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9781982148034.jpg",
+      "synopsis": "The former national security advisor gives his account of the 17 months he spent working for President Trump.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 11,
+      "title": "BEGIN AGAIN",
+      "author": "Eddie S Glaude Jr",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780525575320.jpg",
+      "synopsis": "An appraisal of the life and work of James Baldwin and their meaning in relation to the Black Lives Matter movement and the Trump presidency.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 12,
+      "title": "TRUE CRIMES AND MISDEMEANORS",
+      "author": "Jeffrey Toobin",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780385536738.jpg",
+      "synopsis": "The CNN chief legal analyst weaves a narrative of the Mueller investigation, President Trump’s impeachment and transgressions by key Trump figures.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 13,
+      "title": "EDUCATED",
+      "author": "Tara Westover",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780399590504.jpg",
+      "synopsis": "The daughter of survivalists, who is kept out of school, educates herself enough to leave home for university.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
+    },
+    {
+      "id": 14,
+      "title": "BECOMING",
       "author": "Michelle Obama",
       "imageUrl": "https://s1.nyt.com/du/books/images/9781524763138.jpg",
-      "inPersonalList": false
+      "synopsis": "The former first lady describes how she balanced work, family and her husband’s political ascent.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     },
     {
-      "id": 27,
-      "genre": "nonfiction",
-      "title": "The Splendid And The Vile",
-      "author": "Erik Larson",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780385348713.jpg",
-      "inPersonalList": false
-    },
-    {
-      "id": 28,
-      "genre": "nonfiction",
-      "title": "Born A Crime",
-      "author": "Trevor Noah",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780399588181.jpg",
-      "inPersonalList": false
-    },
-    {
-      "id": 29,
-      "genre": "nonfiction",
-      "title": "Why Are All Black Kids Sitting Together In The Cafeteria?",
-      "author": "Beverly Tatum",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780465060689.jpg",
-      "inPersonalList": false
-    },
-    {
-      "id": 30,
-      "genre": "nonfiction",
-      "title": "I'm Still Here",
-      "author": "Austin Channing Brown",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9781524760861.jpg",
-      "inPersonalList": false
+      "id": 15,
+      "title": "BETWEEN THE WORLD AND ME",
+      "author": "Ta-Nehisi Coates",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780679645986.jpg",
+      "synopsis": "Winner of the 2015 National Book Award for nonfiction. A meditation on race in America as well as a personal story, framed as a letter to the author's teenage son.",
+      "inPersonalList": false,
+      "status": "Unread",
+      "genre": "nonfiction"
     }
   ],
   "personalBookList": [
     {
-      "id": 1,
-      "genre": "fiction",
-      "title": "The Vanishing Half",
-      "author": "Brit Bennett",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780525536291.jpg",
-      "synopsis": "The lives of twin sisters who run away from a Southern black community at age 16 diverge as one returns and the other takes on a different racial identity but their fates intertwine.",
+      "title": "CASTE",
+      "author": "Isabel Wilkerson",
+      "imageUrl": "https://s1.nyt.com/du/books/images/9780593230251.jpg",
+      "synopsis": "The Pulitzer Prize-winning journalist examines aspects of caste systems across civilizations and reveals a rigid hierarchy in America today.",
       "inPersonalList": true,
-      "status": "Read"
+      "status": "Reading",
+      "genre": "nonfiction",
+      "id": 1
     },
     {
-      "id": 4,
+      "title": "fds",
+      "author": "fds",
+      "imageUrl": "",
       "genre": "fiction",
-      "title": "The Lies That Bind",
-      "author": "Emily Giffin",
-      "imageUrl": "https://s1.nyt.com/du/books/images/9780399178955.jpg",
-      "synopsis": "When the new man in her life disappears on 9/11, the budding reporter Cecily Gardner questions what she knew about him.",
+      "status": "Unread",
       "inPersonalList": true,
-      "status": "Unread"
+      "synopsis": "",
+      "id": 2
     }
   ]
 }
