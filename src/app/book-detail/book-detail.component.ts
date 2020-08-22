@@ -28,7 +28,6 @@ export class BookDetailComponent implements OnInit {
       let genre = params.get("genre");
 
       this.bookService.getBookById(genre, id).subscribe(result => {
-        console.log(result)
         this.book = result
       });
     })

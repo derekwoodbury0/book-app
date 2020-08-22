@@ -9,7 +9,8 @@ export class Book {
     public status: string = 'Unread',
     public inPersonalList: boolean = false,
     public genre: string,
-    public id: number
+    public id: number,
+    public bestSeller: boolean = true
   ) {}
 }
 
@@ -19,15 +20,15 @@ export class Book {
 export class BookAdapter {
   adaptFiction(item: any): Book {
     item.genre = 'fiction'
-    let { title, author, book_image, description, status, inPersonalList, genre, rank:id } = item
+    let { title, author, book_image, description, status, inPersonalList, genre, rank:id, bestSeller } = item
 
-    return new Book(title, author, book_image, description, status, inPersonalList, genre, id);
+    return new Book(title, author, book_image, description, status, inPersonalList, genre, id, bestSeller);
   }
 
   adaptNonFiction(item: any): Book {
     item.genre = 'nonfiction'
-    let { title, author, book_image, description, status, inPersonalList, genre, rank:id } = item
+    let { title, author, book_image, description, status, inPersonalList, genre, rank:id, bestSeller } = item
 
-    return new Book(title, author, book_image, description, status, inPersonalList, genre, id);
+    return new Book(title, author, book_image, description, status, inPersonalList, genre, id, bestSeller);
   }
 }

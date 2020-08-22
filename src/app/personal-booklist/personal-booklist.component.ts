@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BookService } from '../book.service'
 import { IBook } from '../ibook';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -10,21 +10,38 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class PersonalBooklistComponent implements OnInit {
 
-  bookList: IBook[]
+  bookList: IBook[];
 
-  constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) { }
-
-  ngOnInit() {
-    this.bookService.getPersonalBookList().subscribe(result => (this.bookList = result))
+  constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) {
+    this.bookService.getList().subscribe(data => {
+      this.bookList = data
+    })
   }
 
-  deleteBook(book): void {
-    let deletedId = book.id;
-    this.bookService.deleteBook(deletedId).subscribe();
+  ngOnInit() {}
 
-    let foundNumber = this.bookList.findIndex(book => book.id === deletedId);
+  deleteBook(book) {
 
-    this.bookList.splice(foundNumber, 1);
+    this.bookService.deleteBook(book).subscribe()
 
+      if (book.bestSeller === true) {
+        if (book.genre === 'fiction') {
+          this.bookService.getFictionBooks().toPromise().then(books => {
+            let matches = books.filter(Returnedbook => book.id === +Returnedbook.id)
+            let match = matches[0]
+            match.inPersonalList = false
+            this.bookService.updateListStatus(match).toPromise()
+          })
+        } else if (book.genre === 'nonfiction') {
+          this.bookService.getNonfictionBooks().toPromise().then(books => {
+            let matches = books.filter(Returnedbook => book.id === +Returnedbook.id)
+            let match = matches[0]
+            match.inPersonalList = false
+            this.bookService.updateListStatus(match).toPromise()
+          })
+        }
+      }
+      let index = this.bookList.findIndex(books => +book.id === +books.id)
+      this.bookList.splice(index, 1)
   }
 }

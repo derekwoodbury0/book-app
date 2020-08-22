@@ -8,4 +8,5 @@ export interface IBook {
   inPersonalList: boolean;
   status: string;
   genre: string;
+  bestSeller: boolean;
 }

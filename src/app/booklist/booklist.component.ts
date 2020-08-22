@@ -1,6 +1,9 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BookService } from '../book.service'
 import { IBook } from '../ibook';
+import { BookAdapter } from '../book.model'
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog'
+import { SearchBoxComponent } from '../search-box/search-box.component';
 
 @Component({
   selector: 'ctac-personal-booklist',
@@ -12,10 +15,17 @@ export class BooklistComponent implements OnInit {
 
   nonfictionBooks: IBook[];
 
-  constructor(private readonly bookService: BookService) { }
+  constructor(
+    private readonly bookService: BookService,
+    private readonly bookAdapter: BookAdapter,
+    private readonly dialog: MatDialog
+  ) {
+    this.bookService.getSearch().subscribe(searchTerm => {
+      this.searchBooks(searchTerm)
+    })
+   }
 
   async ngOnInit() {
-
     await this.bookService.getFictionBooks().subscribe(data => {
       if(data[0]) {
         this.fictionBooks = data;
@@ -27,17 +37,41 @@ export class BooklistComponent implements OnInit {
     })
   }
 
-  async initializeFictionBooks() {
-    await this.bookService.apiFictionBooks().subscribe(data => {
-      this.fictionBooks = data
-      this.bookService.initializeFictionBooks(data).subscribe()
+  initializeFictionBooks() {
+    let books;
+    return this.bookService.apiFictionBooks().toPromise().then(data => {
+      books = data
+      let bookList = books.results.books.map(book => this.bookAdapter.adaptFiction(book))
+      this.bookService.initializeFictionBooks(bookList).subscribe(data => this.fictionBooks = data)
     })
   }
 
-  async initializeNonFictionBooks() {
-    await this.bookService.apiNonFictionBooks().subscribe(data => {
-      this.nonfictionBooks = data
-      this.bookService.initializeNonFictionBooks(data).subscribe()
+  initializeNonFictionBooks() {
+    let books;
+    return this.bookService.apiNonFictionBooks().toPromise().then(data => {
+      books = data
+      let bookList = books.results.books.map(book => this.bookAdapter.adaptNonFiction(book))
+      this.bookService.initializeNonFictionBooks(this.nonfictionBooks).subscribe()
     })
+  }
+
+  searchBooks(searchTerm) {
+    let searchList = this.fictionBooks.concat(this.nonfictionBooks).filter(book => {
+      return book.title.toLowerCase().includes(searchTerm) || book.author.toLowerCase().includes(searchTerm)
+    })
+
+
+    const dialogConfig = new MatDialogConfig();
+
+    dialogConfig.autoFocus = true;
+    dialogConfig.data = {
+      books: searchList
+    };
+
+    this.dialog.open(SearchBoxComponent, dialogConfig)
+
+  //   let booksFound = books.filter(book => {
+  //     return book.title.toLowerCase().includes(search)
+  // })
   }
 }

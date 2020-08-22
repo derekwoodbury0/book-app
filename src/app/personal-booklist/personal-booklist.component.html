@@ -1,9 +1,11 @@
-<div class="personal-booklist">
+<div
+  *ngIf = "bookList"
+  class="personal-booklist">
   <h1
-    *ngIf="!bookList[0]; else personalBooklist"
-    >Your personal booklist is empty!
+    *ngIf="!bookList[0]">
+    Your personal booklist is empty!
   </h1>
-  <ng-template #personalBooklist>
+  <!-- <ng-template #personalBooklist> -->
   <div
     class="book-container"
     *ngFor = "let book of bookList">
@@ -28,6 +30,5 @@
         (click)="deleteBook(book)">Remove book from my List</button>
     </div>
   </div>
-</ng-template>
+<!-- </ng-template> -->
 </div>
-

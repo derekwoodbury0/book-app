@@ -1,34 +1,47 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http'
-import { Observable, forkJoin } from 'rxjs'
+import { HttpClient } from '@angular/common/http'
+import { Observable, Subject } from 'rxjs'
 import { IBook } from './ibook'
-import { Book, BookAdapter } from './book.model'
-import { map,  } from 'rxjs/operators'
 
 @Injectable({
   providedIn: 'root'
 })
 export class BookService {
 
-  count: number = 1;
+  private bookSubject = new Subject<any>();
+  private searchSubject = new Subject<string>();
+
+  emitSearch(search) {
+    this.searchSubject.next(search)
+  }
+
+  getSearch(){
+    return this.searchSubject.asObservable();
+  }
+
+  emitList(list) {
+    this.bookSubject.next(list)
+  }
+
+  getList(): Observable<any> {
+    return this.bookSubject.asObservable();
+  }
+
+  // count: number = 1;
   apiFictionUrl = 'https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=ltq5v5nWenzDUaX0TGpRNvO5IFkshMcH';
 
   apiNonFictionUrl = 'https://api.nytimes.com/svc/books/v3/lists/current/hardcover-nonfiction.json?api-key=ltq5v5nWenzDUaX0TGpRNvO5IFkshMcH';
 
   baseUrl = 'http://localhost:3000'
 
-  constructor(private readonly http: HttpClient, private readonly adapter: BookAdapter) { }
+  constructor(private readonly http: HttpClient) { }
 
   apiFictionBooks() {
-      return this.http
-        .get(this.apiFictionUrl)
-        .pipe(map((data: any[]) => data.results.books.map((item: any) => this.adapter.adaptFiction(item))));
+    return this.http.get(this.apiFictionUrl)
   }
 
   apiNonFictionBooks() {
-    return this.http
-      .get(this.apiNonFictionUrl)
-      .pipe(map((data: any[]) => data.results.books.map((item: any) => this.adapter.adaptNonFiction(item))));
+    return this.http.get(this.apiNonFictionUrl)
   }
 
   initializeFictionBooks(books): Observable<IBook[]> {
@@ -49,7 +62,7 @@ export class BookService {
     return this.http.get<IBook[]>(`${this.baseUrl}/nonfictionBooks`)
   }
 
-  getBookById(genre: string, id: number): Observable<IBook> {
+  getBookById(genre: string, id: number): Observable<any> {
     return this.http.get<IBook>(`${this.baseUrl}/${genre}Books/${id}`)
   }
 
@@ -57,12 +70,12 @@ export class BookService {
     return this.http.get<IBook[]>(`${this.baseUrl}/personalBookList`)
   }
 
-  addBook(newBook): Observable<IBook[]> {
-    return this.http.post<IBook[]>(`${this.baseUrl}/personalBookList`, newBook)
+  addBook(newBook): Observable<IBook> {
+    return this.http.post<IBook>(`${this.baseUrl}/personalBookList`, newBook)
   }
 
-  deleteBook(id: number): Observable<{}> {
-    return this.http.delete<IBook>(`${this.baseUrl}/personalBookList/${id}`);
+  deleteBook(book): Observable<any> {
+    return this.http.delete<IBook>(`${this.baseUrl}/personalBookList/${book.id}`);
   }
 
   updateReadStatus(book: IBook): Observable<IBook> {
@@ -72,12 +85,4 @@ export class BookService {
   updateListStatus(book: IBook): Observable<IBook> {
     return this.http.put<IBook>(`${this.baseUrl}/${book.genre}books/${book.id}`, book)
   }
-
-
-
-  // list() {
-  //   return this.http
-  //     .get(this.apiFictionUrl)
-  //     .pipe(map((data: any[]) => data.results.books.map((item: any) => this.adapter.adaptFiction(item))));
-  // }
 }

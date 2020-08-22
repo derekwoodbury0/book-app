@@ -1,4 +1,4 @@
 <div class="personal-booklist-main">
-  <ctac-personal-add-book-component></ctac-personal-add-book-component>
-  <router-outlet></router-outlet>
+  <ctac-personal-add-book-component (bookOutput)="onChange($event)"></ctac-personal-add-book-component>
+  <router-outlet (activate)="emitList()"></router-outlet>
 </div>
