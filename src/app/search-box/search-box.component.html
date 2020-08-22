@@ -1,6 +1,17 @@
-<mat-dialog-content>
-  <ctac-personal-book
-  *ngFor="let book of searchList"
-  [book]="book"
-  ></ctac-personal-book>
-</mat-dialog-content>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  <div class="dialog-header">
+    <h2 mat-dialog-title
+    style="font-size: 30px;">Search Results</h2>
+    <i mat-dialog-close class="material-icons md-18">close</i>
+  </div>
+  <mat-dialog-content>
+    <ctac-personal-book
+    *ngFor="let book of searchList"
+    [book]="book"
+    (closeDialog)="closeDialog()"
+    ></ctac-personal-book>
+  </mat-dialog-content>
+  <!-- <mat-dialog-actions>
+    <button mat-dialog-close>Close</button>
+  </mat-dialog-actions> -->
+</div>

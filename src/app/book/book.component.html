@@ -1,11 +1,14 @@
 <div class="book-container">
-  <img
-    [routerLink]="['/' + book.genre + '/' + book.id]"
-    src={{book.book_image}}/>
+  <img src={{book.book_image}}/>
   <div class="book-information">
     <h1>Title: {{book.title}}</h1>
     <h2>Author: {{book.author}}</h2>
     <h3>Genre: {{book.genre}}</h3>
-    <button class="btn btn-outline-secondary" [routerLink]="['/' + book.genre + '/' + book.id]">More Details</button>
+    <button
+      class="btn btn-outline-secondary"
+      [routerLink]="['/' + book.genre + '/' + book.id]"
+      (click)="onClick()"
+      >More Details
+    </button>
   </div>
 </div>

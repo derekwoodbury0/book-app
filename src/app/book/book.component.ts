@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { IBook } from '../ibook';
 
 @Component({
@@ -7,13 +7,19 @@ import { IBook } from '../ibook';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-  @Input()
+  @Input() book: any;
 
-  book: any;
+  @Output() closeDialog: EventEmitter<void> = new EventEmitter();
+
+  // book: any;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick(){
+    this.closeDialog.emit()
   }
 
 }

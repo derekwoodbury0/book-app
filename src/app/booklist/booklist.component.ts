@@ -63,15 +63,12 @@ export class BooklistComponent implements OnInit {
 
     const dialogConfig = new MatDialogConfig();
 
-    dialogConfig.autoFocus = true;
+    dialogConfig.autoFocus = false;
+    dialogConfig.width = "65%"
     dialogConfig.data = {
       books: searchList
     };
 
     this.dialog.open(SearchBoxComponent, dialogConfig)
-
-  //   let booksFound = books.filter(book => {
-  //     return book.title.toLowerCase().includes(search)
-  // })
   }
 }

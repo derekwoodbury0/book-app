@@ -17,6 +17,10 @@ export class SearchBoxComponent implements OnInit {
     this.searchList = data.books
   }
 
+  closeDialog () {
+    this.dialogRef.close()
+  }
+
   ngOnInit(): void {}
 
 }
