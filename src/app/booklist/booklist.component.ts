@@ -43,6 +43,7 @@ export class BooklistComponent implements OnInit {
       books = data
       let bookList = books.results.books.map(book => this.bookAdapter.adaptFiction(book))
       this.bookService.initializeFictionBooks(bookList).subscribe(data => this.fictionBooks = data)
+      console.log(this.fictionBooks, bookList)
     })
   }
 
@@ -51,7 +52,8 @@ export class BooklistComponent implements OnInit {
     return this.bookService.apiNonFictionBooks().toPromise().then(data => {
       books = data
       let bookList = books.results.books.map(book => this.bookAdapter.adaptNonFiction(book))
-      this.bookService.initializeNonFictionBooks(this.nonfictionBooks).subscribe()
+      this.bookService.initializeNonFictionBooks(bookList).subscribe(data => this.nonfictionBooks = data)
+      console.log(this.nonfictionBooks, bookList)
     })
   }
 

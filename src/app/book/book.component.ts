@@ -7,18 +7,16 @@ import { IBook } from '../ibook';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-  @Input() book: any;
+  @Input() book: IBook;
 
   @Output() closeDialog: EventEmitter<void> = new EventEmitter();
-
-  // book: any;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  onClick(){
+  onClick (): void {
     this.closeDialog.emit()
   }
 

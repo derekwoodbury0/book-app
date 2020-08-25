@@ -6,7 +6,7 @@
       "book_image": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
       "description": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
       "status": "Unread",
-      "inPersonalList": true,
+      "inPersonalList": false,
       "genre": "fiction",
       "id": 1,
       "bestSeller": true
@@ -28,7 +28,7 @@
       "book_image": "https://s1.nyt.com/du/books/images/9781982151683.jpg",
       "description": "The 23rd book in the Dave Robicheaux series. Rival Louisiana crime families and a time-traveling superhuman assassin bring up Robicheaux’s personal demons.",
       "status": "Unread",
-      "inPersonalList": true,
+      "inPersonalList": false,
       "genre": "fiction",
       "id": 3,
       "bestSeller": true
@@ -333,28 +333,5 @@
       "bestSeller": true
     }
   ],
-  "personalBookList": [
-    {
-      "title": "oioi",
-      "author": "lll",
-      "book_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIM3fqvuBBZVd-tPsR1fgnUVEsPjVzk3iBtg&usqp=CAU",
-      "genre": "fiction",
-      "status": "Read",
-      "inPersonalList": true,
-      "description": "",
-      "bestSeller": false,
-      "id": 2
-    },
-    {
-      "title": "WHERE THE CRAWDADS SING",
-      "author": "Delia Owens",
-      "book_image": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
-      "description": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
-      "status": "Unread",
-      "inPersonalList": true,
-      "genre": "fiction",
-      "bestSeller": true,
-      "id": 3
-    }
-  ]
+  "personalBookList": []
 }

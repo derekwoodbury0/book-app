@@ -5,7 +5,6 @@
     *ngIf="!bookList[0]">
     Your personal booklist is empty!
   </h1>
-  <!-- <ng-template #personalBooklist> -->
   <div
     class="book-container"
     *ngFor = "let book of bookList">
@@ -20,8 +19,8 @@
       <h2>Author: {{book.author}}</h2>
       <h3>Genre: {{book.genre}}</h3>
       <button
-        [routerLink]="['/personal', 'detail']"
         class="btn btn-outline-secondary"
+        [routerLink]="['/personal', 'detail']"
         [state]="{fromPersonalList: true, book: book}">
         More Details
       </button>
@@ -30,5 +29,4 @@
         (click)="deleteBook(book)">Remove book from my List</button>
     </div>
   </div>
-<!-- </ng-template> -->
 </div>

@@ -23,8 +23,6 @@ export class PersonalPageComponent implements OnInit {
     this.bookService.emitList(this.bookList)
   }
 
-  
-
   onChange(newBook) {
     newBook.inPersonalList = true;
     newBook.description='';

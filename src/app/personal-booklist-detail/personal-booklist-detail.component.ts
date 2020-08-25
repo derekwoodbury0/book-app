@@ -16,11 +16,10 @@ export class PersonalBooklistDetailComponent implements OnInit {
 
   updateStatus (clickedStatus): void {
     this.book.status = clickedStatus
-    this.bookService.updateReadStatus(this.book).subscribe()
+    this.bookService.updateReadStatus(this.book).subscribe(data => this.book = data)
   }
 
   ngOnInit(): void {
     this.book = window.history.state.book
   }
-
 }

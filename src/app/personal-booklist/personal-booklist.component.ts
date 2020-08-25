@@ -20,6 +20,10 @@ export class PersonalBooklistComponent implements OnInit {
 
   ngOnInit() {}
 
+  routeToBookDetail(): void {
+    this.router.navigate(['/personal', 'detail'])
+  }
+
   deleteBook(book) {
 
     this.bookService.deleteBook(book).subscribe()

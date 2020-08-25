@@ -20,15 +20,10 @@ export class AddBookComponentComponent implements OnInit {
   }
 
 
-  save() {
+  save(): void {
     let newBook = this.bookForm.value;
-    // newBook.inPersonalList = true;
-    // newBook.description='';
-    // newBook.bestSeller=false;
-    // newBook.book_image ? null : newBook.book_image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIM3fqvuBBZVd-tPsR1fgnUVEsPjVzk3iBtg&usqp=CAU'
-    // this.bookService.addBook(newBook).subscribe();
-    // this.newForm()
-    this.bookOutput.emit(newBook)
+    this.bookOutput.emit(newBook);
+    this.newForm();
   }
 
   newForm() {

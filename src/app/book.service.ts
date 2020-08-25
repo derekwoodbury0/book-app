@@ -27,7 +27,6 @@ export class BookService {
     return this.bookSubject.asObservable();
   }
 
-  // count: number = 1;
   apiFictionUrl = 'https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=ltq5v5nWenzDUaX0TGpRNvO5IFkshMcH';
 
   apiNonFictionUrl = 'https://api.nytimes.com/svc/books/v3/lists/current/hardcover-nonfiction.json?api-key=ltq5v5nWenzDUaX0TGpRNvO5IFkshMcH';
@@ -35,6 +34,10 @@ export class BookService {
   baseUrl = 'http://localhost:3000'
 
   constructor(private readonly http: HttpClient) { }
+
+  placeHolder() {
+    
+  }
 
   apiFictionBooks() {
     return this.http.get(this.apiFictionUrl)
