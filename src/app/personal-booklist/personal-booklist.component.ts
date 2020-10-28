@@ -12,7 +12,7 @@ export class PersonalBooklistComponent implements OnInit {
 
   bookList: IBook[];
 
-  constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) {
+  constructor(private readonly bookService: BookService, private readonly router: Router) {
     this.bookService.getList().subscribe(data => {
       this.bookList = data
     })

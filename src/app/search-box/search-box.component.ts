@@ -17,7 +17,7 @@ export class SearchBoxComponent implements OnInit {
     this.searchList = data.books
   }
 
-  closeDialog () {
+  closeDialog(): void {
     this.dialogRef.close()
   }
 

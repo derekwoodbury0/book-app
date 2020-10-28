@@ -35,10 +35,6 @@ export class BookService {
 
   constructor(private readonly http: HttpClient) { }
 
-  placeHolder() {
-    
-  }
-
   apiFictionBooks() {
     return this.http.get(this.apiFictionUrl)
   }

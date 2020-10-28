@@ -1,4 +1,4 @@
 <div class="main">
-  <ctac-personal-header></ctac-personal-header>
-  <router-outlet></router-outlet>
+  <ctac-personal-header [homePage]="homePage"></ctac-personal-header>
+  <router-outlet (activate)="onActivate()"></router-outlet>
 </div>

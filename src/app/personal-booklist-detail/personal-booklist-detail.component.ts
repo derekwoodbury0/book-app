@@ -12,7 +12,7 @@ export class PersonalBooklistDetailComponent implements OnInit {
 
   book: IBook;
 
-  constructor(private route: ActivatedRoute, private bookService: BookService) { }
+  constructor(private readonly bookService: BookService) { }
 
   updateStatus (clickedStatus): void {
     this.book.status = clickedStatus

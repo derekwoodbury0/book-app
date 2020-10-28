@@ -10,14 +10,13 @@ export class HeaderComponent implements OnInit {
 
   constructor(private readonly bookService: BookService) { }
 
+  ngOnInit(){}
+
+  @Input() homePage: boolean;
+
   @Input() search: string;
 
-  ngOnInit(): void {
-  }
-
-  searchBooks(value) {
+  searchBooks(value): void {
     this.bookService.emitSearch(this.search)
-    // console.log(value)
   }
-
 }

@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchBoxComponent } from './search-box/search-box.component'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SearchBoxComponent } from './search-box/search-box.component'
     AppRoutingModule,
     MatDialogModule,
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSnackBarModule
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent],

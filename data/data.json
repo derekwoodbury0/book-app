@@ -1,14 +1,91 @@
 {
   "fictionBooks": [
     {
-      "title": "WHERE THE CRAWDADS SING",
-      "author": "Delia Owens",
-      "book_image": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
-      "description": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
+      "title": "A TIME FOR MERCY",
+      "author": "John Grisham",
+      "book_image": "https://s1.nyt.com/du/books/images/9780385545969.jpg",
+      "description": "The third book in the Jake Brigance series. A 16-year-old is accused of killing a deputy in Clanton, Miss., in 1990.",
+      "status": "Unread",
+      "inPersonalList": true,
+      "genre": "fiction",
+      "id": 1,
+      "bestSeller": true
+    },
+    {
+      "title": "THE RETURN",
+      "author": "Nicholas Sparks",
+      "book_image": "https://s1.nyt.com/du/books/images/9781538728574.jpg",
+      "description": "A doctor serving in the Navy in Afghanistan goes back to North Carolina where two women change his life.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 1,
+      "id": 2,
+      "bestSeller": true
+    },
+    {
+      "title": "THE SEARCHER",
+      "author": "Tana French",
+      "book_image": "https://s1.nyt.com/du/books/images/9780735224650.jpg",
+      "description": "After a divorce, a former Chicago police officer resettles in an Irish village where a boy goes missing.",
+      "status": "Unread",
+      "inPersonalList": true,
+      "genre": "fiction",
+      "id": 3,
+      "bestSeller": true
+    },
+    {
+      "title": "THE EVENING AND THE MORNING",
+      "author": "Ken Follett",
+      "book_image": "https://s1.nyt.com/du/books/images/9780525954989.jpg",
+      "description": "In a prequel to “The Pillars of the Earth,” a boatbuilder, a Norman noblewoman and a monk live in England under attack by the Welsh and the Vikings.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "fiction",
+      "id": 4,
+      "bestSeller": true
+    },
+    {
+      "title": "THE INVISIBLE LIFE OF ADDIE LARUE",
+      "author": "VE Schwab",
+      "book_image": "https://s1.nyt.com/du/books/images/9780765387561.jpg",
+      "description": "A Faustian bargain comes with a curse that affects the adventure Addie LaRue has across centuries.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "fiction",
+      "id": 5,
+      "bestSeller": true
+    },
+    {
+      "title": "THE BOOK OF TWO WAYS",
+      "author": "Jodi Picoult",
+      "book_image": "https://s1.nyt.com/du/books/images/9781984818355.jpg",
+      "description": "After surviving a plane crash, a death doula travels to Egypt to reconnect with an old flame who is an archaeologist.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "fiction",
+      "id": 6,
+      "bestSeller": true
+    },
+    {
+      "title": "LEAVE THE WORLD BEHIND",
+      "author": "Rumaan Alam",
+      "book_image": "https://s1.nyt.com/du/books/images/9780062667632.jpg",
+      "description": "A family vacation in an isolated part of Long Island is thrown into confusion when the home’s owners return claiming New York City is having a blackout.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "fiction",
+      "id": 7,
+      "bestSeller": true
+    },
+    {
+      "title": "TROUBLES IN PARADISE",
+      "author": "Elin Hilderbrand",
+      "book_image": "https://s1.nyt.com/du/books/images/9780316435581.jpg",
+      "description": "The final installment of the trilogy that includes “Winter in Paradise” and “What Happens in Paradise.”",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "fiction",
+      "id": 8,
       "bestSeller": true
     },
     {
@@ -19,62 +96,62 @@
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 2,
+      "id": 9,
       "bestSeller": true
     },
     {
-      "title": "A PRIVATE CATHEDRAL",
-      "author": "James Lee Burke",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982151683.jpg",
-      "description": "The 23rd book in the Dave Robicheaux series. Rival Louisiana crime families and a time-traveling superhuman assassin bring up Robicheaux’s personal demons.",
+      "title": "JINGLE ALL THE WAY",
+      "author": "Debbie Macomber",
+      "book_image": "https://s1.nyt.com/du/books/images/9781984818751.jpg",
+      "description": "A December cruise in the Amazon fosters a potential change in priorities for a career-focused real-estate executive.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 3,
+      "id": 10,
       "bestSeller": true
     },
     {
-      "title": "1ST CASE",
-      "author": "James Patterson and Chris Tebbetts",
-      "book_image": "https://s1.nyt.com/du/books/images/9780316418188.jpg",
-      "description": "After getting kicked out of M.I.T., Angela Hoot interns with the F.B.I. and tracks the murderous siblings known as the Poet and the Engineer.",
+      "title": "WHERE THE CRAWDADS SING",
+      "author": "Delia Owens",
+      "book_image": "https://s1.nyt.com/du/books/images/9780735219090.jpg",
+      "description": "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 4,
+      "id": 11,
       "bestSeller": true
     },
     {
-      "title": "THE ORDER",
-      "author": "Daniel Silva",
-      "book_image": "https://s1.nyt.com/du/books/images/9780062834843.jpg",
-      "description": "The 20th book in the Gabriel Allon series. The art restorer and spy cuts his family’s vacation short to investigate whether Pope Paul VII was murdered.",
+      "title": "INVISIBLE GIRL",
+      "author": "Lisa Jewell",
+      "book_image": "https://s1.nyt.com/du/books/images/9781982137335.jpg",
+      "description": "An ex-schoolteacher accused of sexual misconduct lives near a family led by a child psychologist whose former patient goes missing.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 5,
+      "id": 12,
       "bestSeller": true
     },
     {
-      "title": "CHOPPY WATER",
-      "author": "Stuart Woods",
-      "book_image": "https://s1.nyt.com/du/books/images/9780593188293.jpg",
-      "description": "The 54th book in the Stone Barrington series. Things get rough for Stone as he goes after criminals in New York City and Key West.",
+      "title": "THE COAST-TO-COAST MURDERS",
+      "author": "James Patterson and JD Barker",
+      "book_image": "https://s1.nyt.com/du/books/images/9780316457422.jpg",
+      "description": "A detective and an F.B.I. agent are baffled by a cross-country killing spree.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 6,
+      "id": 13,
       "bestSeller": true
     },
     {
-      "title": "28 SUMMERS",
-      "author": "Elin Hilderbrand",
-      "book_image": "https://s1.nyt.com/du/books/images/9780316420044.jpg",
-      "description": "A relationship that started in 1993 between Mallory Blessing and Jake McCloud comes to light while she is on her deathbed and his wife runs for president.",
+      "title": "ANXIOUS PEOPLE",
+      "author": "Fredrik Backman",
+      "book_image": "https://s1.nyt.com/du/books/images/9781501160837.jpg",
+      "description": "A failed bank robber holds a group of strangers hostage at an apartment open house.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 7,
+      "id": 14,
       "bestSeller": true
     },
     {
@@ -85,141 +162,31 @@
       "status": "Unread",
       "inPersonalList": false,
       "genre": "fiction",
-      "id": 8,
-      "bestSeller": true
-    },
-    {
-      "title": "NEAR DARK",
-      "author": "Brad Thor",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982104061.jpg",
-      "description": "The 19th book in the Scot Harvath series. With a bounty on his head, Harvath makes an alliance with a Norwegian intelligence operative.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 9,
-      "bestSeller": true
-    },
-    {
-      "title": "AMERICAN DIRT",
-      "author": "Jeanine Cummins",
-      "book_image": "https://s1.nyt.com/du/books/images/9781250209764.jpg",
-      "description": "A bookseller flees Mexico for the United States with her son while pursued by the head of a drug cartel.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 10,
-      "bestSeller": true
-    },
-    {
-      "title": "MEXICAN GOTHIC",
-      "author": "Silvia Moreno-Garcia",
-      "book_image": "https://s1.nyt.com/du/books/images/9780525620785.jpg",
-      "description": "In 1950s Mexico, a debutante travels to a distant mansion where family secrets of a faded mining empire have been kept hidden.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 11,
-      "bestSeller": true
-    },
-    {
-      "title": "CAMINO WINDS",
-      "author": "John Grisham",
-      "book_image": "https://s1.nyt.com/du/books/images/9780385545938.jpg",
-      "description": "The line between fact and fiction becomes blurred when an author of thrillers is found dead after a hurricane hits Camino Island.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 12,
-      "bestSeller": true
-    },
-    {
-      "title": "THE SILENT PATIENT",
-      "author": "Alex Michaelides",
-      "book_image": "https://s1.nyt.com/du/books/images/9781250301697.jpg",
-      "description": "Theo Faber looks into the mystery of a famous painter who stops speaking after shooting her husband.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 13,
-      "bestSeller": true
-    },
-    {
-      "title": "IF IT BLEEDS",
-      "author": "Stephen King",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982137977.jpg",
-      "description": "Four novellas: “Mr. Harrigan’s Phone,” “The Life of Chuck,” “Rat” and “If It Bleeds.”",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
-      "id": 14,
-      "bestSeller": true
-    },
-    {
-      "title": "LUSTER",
-      "author": "Raven Leilani",
-      "book_image": "https://s1.nyt.com/du/books/images/9780374194321.jpg",
-      "description": "A young Brooklyn artist is invited to live with a New Jersey couple who have an open marriage and an adopted daughter.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "fiction",
       "id": 15,
       "bestSeller": true
     }
   ],
   "nonFictionBooks": [
     {
-      "title": "LIVE FREE OR DIE",
-      "author": "Sean Hannity",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982149970.jpg",
-      "description": "The Fox News host offers his assessment on what is at stake in the 2020 election.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "nonfiction",
-      "id": 1,
-      "bestSeller": true
-    },
-    {
-      "title": "TOO MUCH AND NEVER ENOUGH",
-      "author": "Mary L Trump",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982141462.jpg",
-      "description": "The clinical psychologist gives her assessment of events and patterns inside her family and how they shaped President Trump.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "nonfiction",
-      "id": 2,
-      "bestSeller": true
-    },
-    {
       "title": "CASTE",
       "author": "Isabel Wilkerson",
       "book_image": "https://s1.nyt.com/du/books/images/9780593230251.jpg",
       "description": "The Pulitzer Prize-winning journalist examines aspects of caste systems across civilizations and reveals a rigid hierarchy in America today.",
       "status": "Unread",
-      "inPersonalList": false,
+      "inPersonalList": true,
       "genre": "nonfiction",
-      "id": 3,
+      "id": 1,
       "bestSeller": true
     },
     {
-      "title": "FINDING FREEDOM",
-      "author": "Omid Scobie and Carolyn Durand",
-      "book_image": "https://s1.nyt.com/du/books/images/9780063046108.jpg",
-      "description": "The Duke and Duchess of Sussex’s journey from courtship to their decision to step away from their royal lives.",
+      "title": "IS THIS ANYTHING?",
+      "author": "Jerry Seinfeld",
+      "book_image": "https://s1.nyt.com/du/books/images/9781982112691.jpg",
+      "description": "The comedian shares material he collected in an accordion folder over the last 45 years.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
-      "id": 4,
-      "bestSeller": true
-    },
-    {
-      "title": "HOW TO BE AN ANTIRACIST",
-      "author": "Ibram X Kendi",
-      "book_image": "https://s1.nyt.com/du/books/images/9780525509288.jpg",
-      "description": "A primer for creating a more just and equitable society through identifying and opposing racism.",
-      "status": "Unread",
-      "inPersonalList": false,
-      "genre": "nonfiction",
-      "id": 5,
+      "id": 2,
       "bestSeller": true
     },
     {
@@ -230,14 +197,47 @@
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
+      "id": 3,
+      "bestSeller": true
+    },
+    {
+      "title": "KILLING CRAZY HORSE",
+      "author": "Bill O'Reilly and Martin Dugard",
+      "book_image": "https://s1.nyt.com/du/books/images/9781627797047.jpg",
+      "description": "The ninth book in the conservative commentator’s Killing series focuses on conflicts with Native Americans.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "nonfiction",
+      "id": 4,
+      "bestSeller": true
+    },
+    {
+      "title": "BLACKOUT",
+      "author": "Candace Owens",
+      "book_image": "https://s1.nyt.com/du/books/images/9781982133276.jpg",
+      "description": "The conservative commentator makes her case that Black Americans should part ways with the Democratic Party.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "nonfiction",
+      "id": 5,
+      "bestSeller": true
+    },
+    {
+      "title": "RAGE",
+      "author": "Bob Woodward",
+      "book_image": "https://s1.nyt.com/du/books/images/9781982131739.jpg",
+      "description": "Based on 17 on-the-record interviews with President Trump and other reporting, the Pulitzer Prize-winning journalist details the president’s perspective on multiple crises.",
+      "status": "Unread",
+      "inPersonalList": false,
+      "genre": "nonfiction",
       "id": 6,
       "bestSeller": true
     },
     {
-      "title": "EVIL GENIUSES",
-      "author": "Kurt Andersen",
-      "book_image": "https://s1.nyt.com/du/books/images/9781984801340.jpg",
-      "description": "The author of “Fantasyland” looks at the economic, cultural and political forces to which he ascribes the undermining and dismantling of the American middle class.",
+      "title": "HUMANS",
+      "author": "Brandon Stanton",
+      "book_image": "https://s1.nyt.com/du/books/images/9781250114297.jpg",
+      "description": "Photos and stories of people from over 40 countries collected by the creator of “Humans of New York.”",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -245,10 +245,10 @@
       "bestSeller": true
     },
     {
-      "title": "THE ANSWER IS ...",
-      "author": "Alex Trebek",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982157999.jpg",
-      "description": "Who is the Canadian-American game show host whose pronunciation of the word “genre” has been shared widely on social media?",
+      "title": "AMERICAN CRISIS",
+      "author": "Andrew Cuomo",
+      "book_image": "https://s1.nyt.com/du/books/images/9780593239261.jpg",
+      "description": "The New York State governor gives his perspective on the Covid-19 crisis and prescribes ways to deal with future disasters.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -256,10 +256,10 @@
       "bestSeller": true
     },
     {
-      "title": "BECOMING",
-      "author": "Michelle Obama",
-      "book_image": "https://s1.nyt.com/du/books/images/9781524763138.jpg",
-      "description": "The former first lady describes how she balanced work, family and her husband’s political ascent.",
+      "title": "HOW TO BE AN ANTIRACIST",
+      "author": "Ibram X Kendi",
+      "book_image": "https://s1.nyt.com/du/books/images/9780525509288.jpg",
+      "description": "A primer for creating a more just and equitable society through identifying and opposing racism.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -267,10 +267,10 @@
       "bestSeller": true
     },
     {
-      "title": "EDUCATED",
-      "author": "Tara Westover",
-      "book_image": "https://s1.nyt.com/du/books/images/9780399590504.jpg",
-      "description": "The daughter of survivalists, who is kept out of school, educates herself enough to leave home for university.",
+      "title": "TEN LESSONS FOR A POST-PANDEMIC WORLD",
+      "author": "Fareed Zakaria",
+      "book_image": "https://s1.nyt.com/du/books/images/9780393542134.jpg",
+      "description": "The CNN host posits what might happen on the other side of the Covid-19 pandemic.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -278,10 +278,10 @@
       "bestSeller": true
     },
     {
-      "title": "BETWEEN THE WORLD AND ME",
-      "author": "Ta-Nehisi Coates",
-      "book_image": "https://s1.nyt.com/du/books/images/9780679645986.jpg",
-      "description": "Winner of the 2015 National Book Award for nonfiction. A meditation on race in America as well as a personal story, framed as a letter to the author's teenage son.",
+      "title": "THE MEANING OF MARIAH CAREY",
+      "author": "Mariah Carey with Michaela Angela Davis",
+      "book_image": "https://s1.nyt.com/du/books/images/9781250164681.jpg",
+      "description": "The career highlights, public life and private struggles of the singer and songwriter.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -289,10 +289,10 @@
       "bestSeller": true
     },
     {
-      "title": "THE SPLENDID AND THE VILE",
-      "author": "Erik Larson",
-      "book_image": "https://s1.nyt.com/du/books/images/9780385348713.jpg",
-      "description": "An examination of the leadership of the prime minister Winston Churchill.",
+      "title": "TRUMPTY DUMPTY WANTED A CROWN",
+      "author": "John Lithgow",
+      "book_image": "https://s1.nyt.com/du/books/images/9781797209463.jpg",
+      "description": "A second illustrated collection of poems chronicling and satirizing current events.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -300,10 +300,10 @@
       "bestSeller": true
     },
     {
-      "title": "BLITZ",
-      "author": "David Horowitz",
-      "book_image": "https://s1.nyt.com/du/books/images/9781630061388.jpg",
-      "description": "The author of “Big Agenda” explains why he thinks President Trump will be re-elected.",
+      "title": "THE 99% INVISIBLE CITY",
+      "author": "Roman Mars and Kurt Kohlstedt",
+      "book_image": "https://s1.nyt.com/du/books/images/9780358126607.jpg",
+      "description": "A look at the design and architecture of various and sometimes unexpected elements that make cities function.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -311,10 +311,10 @@
       "bestSeller": true
     },
     {
-      "title": "THE ROOM WHERE IT HAPPENED",
-      "author": "John Bolton",
-      "book_image": "https://s1.nyt.com/du/books/images/9781982148034.jpg",
-      "description": "The former national security advisor gives his account of the 17 months he spent working for President Trump.",
+      "title": "ONE VOTE AWAY",
+      "author": "Ted Cruz",
+      "book_image": "https://s1.nyt.com/du/books/images/9781684511341.jpg",
+      "description": "The Republican senator from Texas gives his views on what might happen if liberals gain a simple majority on the Supreme Court.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -322,10 +322,10 @@
       "bestSeller": true
     },
     {
-      "title": "BREATH",
-      "author": "James Nestor",
-      "book_image": "https://s1.nyt.com/du/books/images/9780735213616.jpg",
-      "description": "A re-examination of a basic biological function and a look at the science behind ancient breathing practices.",
+      "title": "TOO MUCH AND NEVER ENOUGH",
+      "author": "Mary L Trump",
+      "book_image": "https://s1.nyt.com/du/books/images/9781982141462.jpg",
+      "description": "The clinical psychologist gives her assessment of events and patterns inside her family and how they shaped President Trump.",
       "status": "Unread",
       "inPersonalList": false,
       "genre": "nonfiction",
@@ -333,5 +333,28 @@
       "bestSeller": true
     }
   ],
-  "personalBookList": []
+  "personalBookList": [
+    {
+      "title": "A TIME FOR MERCY",
+      "author": "John Grisham",
+      "book_image": "https://s1.nyt.com/du/books/images/9780385545969.jpg",
+      "description": "The third book in the Jake Brigance series. A 16-year-old is accused of killing a deputy in Clanton, Miss., in 1990.",
+      "status": "Reading",
+      "inPersonalList": true,
+      "genre": "fiction",
+      "bestSeller": true,
+      "id": 1
+    },
+    {
+      "title": "THE SEARCHER",
+      "author": "Tana French",
+      "book_image": "https://s1.nyt.com/du/books/images/9780735224650.jpg",
+      "description": "After a divorce, a former Chicago police officer resettles in an Irish village where a boy goes missing.",
+      "status": "Unread",
+      "inPersonalList": true,
+      "genre": "fiction",
+      "bestSeller": true,
+      "id": 2
+    }
+  ]
 }

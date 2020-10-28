@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { BookService } from '../book.service'
 import { IBook } from '../ibook';
 import { BookAdapter } from '../book.model'
@@ -25,8 +25,8 @@ export class BooklistComponent implements OnInit {
     })
    }
 
-  async ngOnInit() {
-    await this.bookService.getFictionBooks().subscribe(data => {
+  ngOnInit() {
+    this.bookService.getFictionBooks().subscribe(data => {
       if(data[0]) {
         this.fictionBooks = data;
         this.bookService.getNonfictionBooks().subscribe(data => this.nonfictionBooks = data)
@@ -43,7 +43,6 @@ export class BooklistComponent implements OnInit {
       books = data
       let bookList = books.results.books.map(book => this.bookAdapter.adaptFiction(book))
       this.bookService.initializeFictionBooks(bookList).subscribe(data => this.fictionBooks = data)
-      console.log(this.fictionBooks, bookList)
     })
   }
 
@@ -53,7 +52,6 @@ export class BooklistComponent implements OnInit {
       books = data
       let bookList = books.results.books.map(book => this.bookAdapter.adaptNonFiction(book))
       this.bookService.initializeNonFictionBooks(bookList).subscribe(data => this.nonfictionBooks = data)
-      console.log(this.nonfictionBooks, bookList)
     })
   }
 

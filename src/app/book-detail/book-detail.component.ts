@@ -14,8 +14,6 @@ export class BookDetailComponent implements OnInit {
 
   book: IBook;
 
-  // fromPersonalList: boolean = false;
-
   constructor(
     private route: ActivatedRoute,
     private bookService: BookService,
